@@ -133,7 +133,8 @@ var handleFlipCard = function(event) {
 				startClock();
 				const span = document.getElementsByClassName("close")[0];
 				const btn = document.getElementById("btnAgain");
-				const stars = document.getElementsByClassName('fa-star').length;
+				const starlist =document.getElementById("stars"); 
+				const stars = starlist.getElementsByClassName('fa-star').length;
 				document.getElementById("movesCount").innerText = countMoves;
 				document.getElementById("starsCount").innerText = stars;
 				document.getElementById("elapsedTime").innerText = document.getElementById('crono').innerHTML;
