@@ -20,6 +20,8 @@ Download the GitHub source code. Open the .css, js and html files with a text ed
 The memory game project uses three technologies: 
 
 * CSS -  Cascading Style Sheets
+* Bootstrap (framework)
+* Google Fonts
 * HTML - HyperText Markup Language 
 * JavaScript - JavaScript is a programming language for the web.
 
