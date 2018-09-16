@@ -136,6 +136,7 @@ var handleFlipCard = function(event) {
 				const stars = document.getElementsByClassName('fa-star').length;
 				document.getElementById("movesCount").innerText = countMoves;
 				document.getElementById("starsCount").innerText = stars;
+				document.getElementById("elapsedTime").innerText = document.getElementById('crono').innerHTML;
 				modal = document.getElementById('myModal');
 				modal.style.display = "block";
 				span.onclick = function() {
