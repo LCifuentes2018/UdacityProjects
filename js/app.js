@@ -59,8 +59,8 @@ function remove(el) {
 }
 
 function hideCard() {
-	var childNodes = document.getElementsByTagName('li');
-	for (var i = 0; i < childNodes.length; i++) {
+	const childNodes = document.getElementsByTagName('li');
+	for (let i = 0; i < childNodes.length; i++) {
 		let card = childNodes[i];
 		if (childNodes[i].classList.contains('open', 'show')) {
 			childNodes[i].classList.add('wrong');
@@ -74,8 +74,8 @@ function hideCard() {
 }
 
 function matchCard() {
-	var childNodes = document.getElementsByTagName('li');
-	for (var i = 0; i < childNodes.length; i++) {
+	const childNodes = document.getElementsByTagName('li');
+	for (let i = 0; i < childNodes.length; i++) {
 		if (childNodes[i].classList.contains('open', 'show')) {
 			childNodes[i].classList.remove('open', 'show');
 			childNodes[i].classList.add('match');
@@ -96,7 +96,7 @@ function gameScore() {
 * @description Handle clicking on card
 * @param {event} The click event
 */
-var handleFlipCard = function(event) {
+let handleFlipCard = function(event) {
 	event.preventDefault();
 	let cardObject = cardObjectList[this.index - 3];
 	if (cardObject.isMatchingCard === true) {
@@ -154,8 +154,8 @@ var handleFlipCard = function(event) {
 
 // Build single card
 const buildCardNode = function(index, card) {
-	var flipContainer = document.createElement('li')
-	var flipper = document.createElement('i')
+	let flipContainer = document.createElement('li')
+	let flipper = document.createElement('i')
 	flipContainer.index = index + 3
 	flipContainer.classList.add('card') 
 	flipper.classList.add('fa', card.value)
