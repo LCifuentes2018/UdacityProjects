@@ -1,46 +1,6 @@
-# Memory Game Project
+frontend-nanodegree-arcade-game
+===============================
 
-## How the Game Works
-The memory game consists of sixteen cards. The cards are arranged randomly on the board with the symbol face down. 
-The gameplay rules are:
-  - The players flip over cards to locate the pairs that match.
-  - If the cards match, both cards stay flipped over.
-  - If the cards do not match, both cards are flipped face down.
+Students should use this [rubric](https://review.udacity.com/#!/projects/2696458597/rubric) for self-checking their submission. Make sure the functions you write are **object-oriented** - either class functions (like Player and Enemy) or class prototype functions such as Enemy.prototype.checkCollisions, and that the keyword 'this' is used appropriately within your class and class prototype functions to refer to the object the function is called upon. Also be sure that the **readme.md** file is updated with your instructions on both how to 1. Run and 2. Play your arcade game.
 
-## Getting Started
-Download the GitHub source code. Open the .css, js and html files with a text editor. To open the index.html file with any browser.
-
-### Prerequisites
-
-  - Any browser  It is supported by most web browsers including Chrome, Firefox, Safari, internet Explorer, Edge, Opera, etc.
-  - Text editor.
-  
-### Built With
-
-The memory game project uses three technologies: 
-
-* CSS -  Cascading Style Sheets
-* Bootstrap (framework)
-* Google Fonts
-* HTML - HyperText Markup Language 
-* JavaScript - JavaScript is a programming language for the web.
-
-### Development
-The following functions were implemented:
-```sh
-On app.js file
-```
-* To  handle clicks
-* Matching logic
-* Winning condition
-* Reset button
-* Star rating
-* Timer
-* Move counter
-
-License
-----
-
-Free Sofware
-
-
+For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).
